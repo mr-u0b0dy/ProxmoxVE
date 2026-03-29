@@ -2,7 +2,7 @@
 
 # Copyright (c) 2021-2026 tteck
 # Author: tteck (tteckster)
-# License: MIT | https://github.com/community-scripts/ProxmoxVE/raw/main/LICENSE
+# License: MIT | https://github.com/mr-u0b0dy/ProxmoxVE/raw/main/LICENSE
 # Source: https://mafl.hywax.space/ | Github: https://github.com/hywax/mafl
 
 source /dev/stdin <<<"$FUNCTIONS_FILE_PATH"
