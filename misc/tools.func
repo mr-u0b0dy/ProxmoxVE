@@ -960,9 +960,9 @@ verify_repo_available() {
     fi
   fi
 
-  # Perform actual check with short timeout
+  # Perform actual check with reasonable timeout
   local result=1
-  if curl -fsSL --max-time 5 --connect-timeout 3 "${repo_url}/dists/${suite}/Release" &>/dev/null; then
+  if curl -fsSL --max-time 15 --connect-timeout 10 "${repo_url}/dists/${suite}/Release" &>/dev/null; then
     result=0
   fi
 
